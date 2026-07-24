@@ -1,24 +1,24 @@
-# from random import random
+# # from random import random
 
 
-# def find_best_move(board):
-#     for s in range(9):
-#         ri,ci = s//3, s%3
-#         if borad[ri][ci] == '':
-#             return ri,ci
-#         return 
+# # def find_best_move(board):
+# #     for s in range(9):
+# #         ri,ci = s//3, s%3
+# #         if borad[ri][ci] == '':
+# #             return ri,ci
+# #         return 
     
-# def play_ttt():
-#     board = [['' for _ in range(3)] for _ in range(3)]
-#     row, col = random.randint(0, 2), random.randint(0, 2)
+# # def play_ttt():
+# #     board = [['' for _ in range(3)] for _ in range(3)]
+# #     row, col = random.randint(0, 2), random.randint(0, 2)
 
 
-# board = [['' for _ in range(3)] for _ in range(3)]
-# print(board)
+# # board = [['' for _ in range(3)] for _ in range(3)]
+# # print(board)
 
-# i = input ("Enter your :")
-# ib = i.split()
-# print(ib)
+# # i = input ("Enter your :")
+# # ib = i.split()
+# # print(ib)
 
 # import copy
 # import random
@@ -123,7 +123,7 @@
 #             # ตาของผู้เล่น (X)
 #             try:
 #                 row, col = map(int, input("Enter your move (row space column): ").split())
-                    # ป้อนค่า
+#                     #ป้อนค่า
 #                 # ตรวจสอบขอบเขตข้อมูลเพื่อป้องกัน IndexError
 #                 if row not in range(3) or col not in range(3):
 #                     print("Invalid coordinates! Please enter 0, 1, or 2.")
